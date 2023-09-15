@@ -25,11 +25,12 @@ li{
     margin: 25px 0 30px;
     /* font-family: 'Inter', sans-serif; */
     font-family: 'Work Sans', sans-serif;
+    line-height: 1.6;
 }
 
 /* header section styles */
 header{
-    background-image: url(../images/banners/banner1.png);
+    background-image: url(../images/banners/banner2.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -47,10 +48,6 @@ header{
     font-family: 'Work Sans', sans-serif;
 }
 
-.banner .description{
-    line-height: 1.6;
-}
-
 .banner-btn{
     color: #fff;
     font-size: 20px;
@@ -60,4 +57,33 @@ header{
     padding: 20px 25px;
     border: 0;
     border-radius: 5px;
+}
+
+/* working-progress section styles */
+.working-progress{
+    display: flex;
+    align-items: center;
+    gap: 90px;
+    margin: 130px 0;
+}
+
+.working-progress .font-image img{
+    width: 100%;
+}
+
+.working-activity h3{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Work Sans', sans-serif;
+}
+.work-list p{
+    color: #444343;
+    font-family: 'Work Sans', sans-serif;
+    margin-bottom: 10px;
+}
+
+.work-list p .fa-check{
+    color: #16D887;
+    margin-right: 15px;
 }
